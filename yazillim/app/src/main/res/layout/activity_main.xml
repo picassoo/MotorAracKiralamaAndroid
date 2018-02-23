@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammmedal.yazillim.MainActivity"
+    android:orientation="vertical"
+   >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/güncelle"
+        android:layout_weight="1"
+        android:text="güncelle"/>
+
+    <Button
+        android:id="@+id/araç"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Araç ekle"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/araçDurum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Araç Durum-Kirala"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/sirket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sirket Ekle"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/rapor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rapor Al"
+        android:layout_weight="1"/>
+
+</LinearLayout>
